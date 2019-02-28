@@ -131,6 +131,14 @@ a.nav-link.navegation-link:hover::after{
     z-index: 2;
 }
 
+/*
+ ASI QUEDA MAS O MENOS(?)
+    pero no lo puedo ajustar y me agrega una barre de scroll.
+} */
+
 .second-box-image{
-    max-height: 325px;
+    height: 100vh;
+    object-fit: none;
+    object-position: center;
+    width: 100vh;
 }
