@@ -127,6 +127,10 @@ a.nav-link.navegation-link:hover::after{
     top: 5px;
     bottom: auto;
     right: auto;
-    left: 10px;
+    left: 11px;
     z-index: 2;
+}
+
+.second-box-image{
+    max-height: 325px;
 }
