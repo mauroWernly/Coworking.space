@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT:400,700');
+
+
+.navbar a.navbar-brand.coworking-word{
+    font-family: 'Old Standard TT', serif;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.navbar span.space-word{
+    font-family: 'Varela Round', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+li.nav-item.navegation-link {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.navbar a{
+    font-family: 'Varela Round', sans-serif;
+}
