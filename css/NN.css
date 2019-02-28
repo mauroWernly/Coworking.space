@@ -1,24 +1,72 @@
-@import url('https://fonts.googleapis.com/css?family=Varela+Round');
 @import url('https://fonts.googleapis.com/css?family=Old+Standard+TT:400,700');
-
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
 
 .navbar a.navbar-brand.coworking-word{
     font-family: 'Old Standard TT', serif;
     font-weight: 800;
     line-height: 1;
+    color: #ffff;
 }
 
 .navbar span.space-word{
     font-family: 'Varela Round', sans-serif;
     font-weight: normal;
     font-size: 18px;
+    color: #dca400;
+}
+
+.nav-padding-right{
+    padding-right: 50px;
 }
 
 li.nav-item.navegation-link {
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .navbar a{
     font-family: 'Varela Round', sans-serif;
+    color: #ffff;
 }
+
+.bg-left-top{
+    background: #2f2f2f;
+    height: calc(100vh - 250px);
+    position: relative;
+}
+
+.bg-left-bottom{
+    background: #131313;
+    height: 184px;
+}
+
+nav.navbar.navbar-color.navbar-expand-lg{
+    background: #2f2f2f;
+}
+
+.first-box-title{
+    color: #ffff;
+    font-family: 'Old Standard TT', serif;
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
+p.first-box-text{
+    color: #ffff;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 15px;
+    max-width: 400px;
+    color: #ffff;
+}
+
+.container.container-first-box{
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    bottom: auto;
+    left: 100px;
+    right: auto;
+}
+
