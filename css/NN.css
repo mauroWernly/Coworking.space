@@ -131,14 +131,77 @@ a.nav-link.navegation-link:hover::after{
     z-index: 2;
 }
 
-/*
- ASI QUEDA MAS O MENOS(?)
-    pero no lo puedo ajustar y me agrega una barre de scroll.
-} */
-
 .second-box-image{
-    height: 100vh;
-    object-fit: none;
+    height: 100%;
+    object-fit: cover;
     object-position: center;
-    width: 100vh;
+    width:calc(100% - 60px);
+}
+
+.right-bar{
+    width: 60px;
+    height: 100%;
+    background: #131313;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    right: 0;
+    left: auto;
+    top: 0;
+    bottom: 0;
+}
+
+.menu-box{
+    width: 100%;
+    background: #4c4c4c;
+    border: 0;
+    padding: 20px 0;
+    margin: 0;
+    text-align: center;
+    display: block;
+    margin-bottom: auto;
+}
+
+.menu-lines{
+    max-height: 30px;
+    max-width: 30px;
+    display: inline-block;
+}
+
+.media-link{
+    color: #dca400;
+    font-family: 'Varela Round', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.media-link:last-of-type {
+    margin-bottom: auto;
+}
+
+.booking-btn{
+    background: #dca400;
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+    width: 200px;
+    height: 55px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 60px;
+    left: auto;
+    top: auto;
+    border: none;
+}
+
+.booking-arrow{
+    filter: grayscale(100%) brightness(2);
+    max-height: 20px;
+    transform: rotate(270deg);
+    margin-left: 10px;
+    position: relative;
+    top: 1px;
 }
